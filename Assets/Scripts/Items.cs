@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public struct Items
+{
+    public string Name;
+    public int ID;
+    public int Quantity;
+
+    public Items(string name, int id, int quantity)
+    {
+        Name = name;
+        ID = id;
+        Quantity = quantity;
+    }
+}
